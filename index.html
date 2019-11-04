@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/cookies.js"></script>
+    <script type="text/javascript" src="js/selects.js"></script>
+    <script type="text/javascript" src="js/fetchLocalStorage.js"></script>
+    <script type="text/javascript" src="js/formInteractions.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
+    <script type="text/javascript" src="js/browserDetect.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="load()" onresize="dimensions();">
+    <div id="banner">
+        <h1>Study where your heart belongs
+            <img src="imgs/tiny.png"/>
+        </h1>
+
+        <select id="datasets" onchange="changeDataSet(this.value);" autocomplete="off">
+            <option value="choices1.json">Dataset 1</option>
+            <option value="choices2.json">Dataset 2</option>
+        </select>
+    </div>
+
+    <div id="userInfo">
+        <div id="showForm">
+            <h4 id="wlcm">
+                Welcome <span></span>
+                <a id="log">Logout</a>
+            </h4>
+        </div>
+
+        <form method="POST" action="javascript:void(0);" onsubmit="getUserInfo(this);">
+            <span>
+                <button id="closeForm" type="button" onclick="animateForm(-1);">Close</button>
+            </span>
+
+            <span>
+                <label for="email">Email <img id="prefill" src="imgs/fill.png" onclick="prefill();"/></label>
+                <input type="text" id="email" name="email" placeholder="e.g. john.doe@info.net"
+                    pattern="^[a-z]+[a-z0-9._]+@[a-z]+\.(com|edu|net|org|gov)$" required/>
+            </span>
+
+            <span class="signUp">
+                <label for="fName">First name</label>
+                <input type="text" id="fName" name="fName" placeholder="Do not include numbers!"
+                    pattern="([A-Za-z]+\s?)+" required/>
+            </span>
+
+            <span class="signUp">
+                <label for="lName">Last name</label>
+                <input type="text" id="lName" name="lName" placeholder="Do not include numbers!"
+                    pattern="([A-Za-z]+\s?)+" required/>
+            </span>
+
+            <span class="signUp">
+                <label for="bDay">Birth date</label>
+                <input type="date" id="bDay" name="bDay"/>
+            </span>
+
+            <span class="signUp">
+                <label for="phone">Phone number</label>
+                <input type="text" id="phone" name="phone" placeholder="Do not include letters and special characters!"
+                    pattern="[0-9]+"/>
+            </span>
+
+            <span class="signUp">
+                <label for="gender">Gender</label>
+                <span>
+                    <input type="radio" id="female" name="gender" value="Female" required />
+                    <label for="female">Female</label>
+                </span>
+                <span>
+                    <input type="radio" id="male" name="gender" value="Male" required />
+                    <label for="male">Male</label>
+                </span>
+            </span>
+
+            <span>
+                <button id="submit" type="submit">Submit</button>
+            </span>
+        </form>
+    </div>
+
+    <div id="selectContainer"></div>
+
+    <div id="heart">
+        <a target="_blank"></a>
+    </div>
+
+    <div id="opacity"></div>
+    <div id="bgImg"></div>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "question": "Do you prefer cities or nature?",
+        "answers": {
+            "Cities": 2,
+            "Nature": 3
+        }
+    },
+    {
+        "id": 2,
+        "question": "Do you prefer Arabic or Spanish?",
+        "answers": {
+            "Arabic": 4,
+            "Spanish": 5
+        }
+    },
+    {
+        "id": 3,
+        "question": "Do you prefer mountains or islands?",
+        "answers": {
+            "Mountains": 6,
+            "Islands": 7
+        }
+    },
+    {
+        "id": 4,
+        "question": "Do you prefer ancient or new cities?",
+        "answers": {
+            "Ancient": 8,
+            "New Cities": 9
+        }
+    },
+    {
+        "id": 5,
+        "question": "Do you prefer humanities or science?",
+        "answers": {
+            "Humanities": 10,
+            "Science": 11
+        }
+    },
+    {
+        "id": 6,
+        "question": "Do you prefer South America or Asia?",
+        "answers": {
+            "South America": 12,
+            "Asia": 13
+        }
+    },
+    {
+        "id": 7,
+        "question": "Do you prefer Caribbean or South Pacific?",
+        "answers": {
+            "Caribbean": 14,
+            "South Pacific": 15
+        }
+    },
+    {
+        "id": 8,
+        "result": "Middle East Studies",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0f30e6c7e993fafeda90e8dde9b83467"
+    },
+    {
+        "id": 9,
+        "result": "RIT Dubai - Direct Enroll",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=0e062b2cfb65db2f6778cd26aad9311d"
+    },
+    {
+        "id": 10,
+        "result": "Advanced Liberal Arts - Barcelona",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=473cb41401b20b3d91b31432e80e8e4f"
+    },
+    {
+        "id": 11,
+        "result": "Santiago - Health Studies",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=89894ba735af3935a4611a2205fff648"
+    },
+    {
+        "id": 12,
+        "result": "Semester in Cusco - Universidad San Ignacio Loyola",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=ae8939c42459a2b58f247a8e2cff284b"
+    },
+    {
+        "id": 13,
+        "result": "Big Cats of the Himalayas: Tracking & Conservation",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=ddbf516c2873f7087f3d631ca7f239a2"
+    },
+    {
+        "id": 14,
+        "result": "Marine Resource Studies",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=e66910d6fcad2576bea3f4a4dcef3897"
+    },
+    {
+        "id": 15,
+        "result": "Protecting the Phoenix Islands",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=1008cf2cf5051059f9138d0787a23388"
+    }
+]

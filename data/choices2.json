@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "question": "What level of education are you looking for?",
+        "answers": {
+            "Undergraduate": 2,
+            "Graduate": 3,
+            "All": 19
+        }
+    },
+    {
+        "id": 2,
+        "question": "What major are you interested in?",
+        "answers": {
+            "Computing & Information Science": 4,
+            "Engineering": 4,
+            "Liberal Arts": 5,
+            "Sustainability": 20
+        }
+    },
+    {
+        "id": 3,
+        "question": "What major are you interested in?",
+        "answers": {
+            "Web & Mobile application development": 4,
+            "Packaging Science": 4,
+            "Psychology": 5,
+            "Management of Business Administration": 20
+        }
+    },
+    {
+        "id": 19,
+        "question": "What major are you interested in?",
+        "answers": {
+            "Neuroscience": 6,
+            "AI/ML": 4,
+            "Medical Science": 6
+        }
+    },
+    {
+        "id": 4,
+        "question": "What is your preferred language?",
+        "answers": {
+            "English": 12,
+            "French": 14,
+            "German": 16,
+            "Spanish": 23
+        }
+    },
+    {
+        "id": 5,
+        "question": "What is your preferred language?",
+        "answers": {
+            "English": 13,
+            "French": 15,
+            "German": 17,
+            "Spanish": 23
+        }
+    },
+    {
+        "id": 6,
+        "question": "What is your preferred language?",
+        "answers": {
+            "English": 11,
+            "French": 15,
+            "German": 17,
+            "Spanish": 24
+        }
+    },
+    {
+        "id": 20,
+        "question": "What is your preferred language?",
+        "answers": {
+            "English": 11,
+            "French": 27,
+            "German": 26,
+            "Spanish": 22
+        }
+    },
+    {
+        "id": 11,
+        "result": "Arts & Sciences - University College Dublin - Dublin, Ireland",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=f9cf33da0977a6384afffa4c683f127b"
+    },
+    {
+        "id": 12,
+        "result": "Arts & Sciences at University College London (UCL) - London, England",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=7847df62c80e0c30a62ada97862cf292"
+    },
+    {
+        "id": 13,
+        "result": "Auckland Direct Enrollment - University of Auckland",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=164bc12d3ff54b7ffdffcfe18d7637b5"
+    },
+    {
+        "id": 14,
+        "result": "French & Critical Studies in Paris",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=a61b3ee4ce0279e53362bf7ad38f9985"
+    },
+    {
+        "id": 15,
+        "result": "American University of Paris",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=2cea2a71b228285e21089e1e722057b1"
+    },
+    {
+        "id": 27,
+        "result": "IPAG- Business School - Nice, France",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=92cbd66cc298bbd3502bdbd59dd26603   "
+    },
+    {
+        "id": 16,
+        "result": "Universitat Osnabruck",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=fbedf1cc083197f5f712e85aa16d1b63"
+    },
+    {
+        "id": 17,
+        "result": "Paderborn University",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=e9d86a4929dce2a0ac127d1a18d47b16"
+    },
+    {
+        "id": 22,
+        "result": "Granada - Study in Granada, Spain",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=50851321c8f1bebcbbf1e7820ad76f4a"
+    },
+    {
+        "id": 23,
+        "result": "Barcelona - Political Science & International Relations",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=c24e9f412e3b358c149de9cdd8aa4248"
+    },
+    {
+        "id": 24,
+        "result": "Advanced Liberal Arts - Seville",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=991e086e9b907c860364d8fcb75965e3"
+    },
+    {
+        "id": 26,
+        "result": "Freiburg - Language and Area Studies",
+        "link": "https://rit-horizons.symplicity.com/index.php?s=programs&mode=form&id=74aa7fe429553ef182484f988e8c65bc"
+    }
+]
