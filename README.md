@@ -17,6 +17,6 @@ A single web application that suggests RIT study abroad programs based on user's
 <img src="screenshots/5.PNG" width="600" height="370" alt="Step 5" border="1">
 
 5. The next time the user signs in via their email address, they are presented with their previously selected options:
-<img src="screenshots/6_.PNG" width="600" height="370" alt="Step 6" border="1">
-<img src="screenshots/7_.PNG" width="600" height="370" alt="Step 7" border="1">
+<img src="screenshots/6.PNG" width="600" height="370" alt="Step 6" border="1">
+<img src="screenshots/7.PNG" width="600" height="370" alt="Step 7" border="1">
 
